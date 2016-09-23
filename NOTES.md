@@ -27,11 +27,15 @@
     + sets an initial state for the search term
     + value of the input is bound to state
     + onChange, updated the state
+    + setState - the only way to update state
+      + What does this do?
+        + sets the state - calls render again
     + Parlor trick, show the h2 that updates with the input
   + fetch()
     + onChange - fire a network request to the giphy API
     + find a URL and pass it into a GifItem component
     + Returns a Promise
       + We can call then on it...
+    + Update our state
   + GifItem
     + Have Students build it - functional or class based?
